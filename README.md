@@ -100,6 +100,33 @@ The project includes:
 
 ---
 
+## How to Run
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/dpedd4/nba-mvp-predictor.git
+   cd nba-mvp-predictor
+   ```
+
+2. **Install the required libraries**
+   ```bash
+   pip install pandas scikit-learn matplotlib seaborn jupyter
+   ```
+
+3. **Download the dataset**
+   - Download the **NBA Stats (1947-present)** dataset from Kaggle.
+   - Place the required CSV files in the project directory.
+
+4. **Open the Jupyter Notebook**
+   ```bash
+   jupyter notebook mvp_predictor.ipynb
+   ```
+
+5. **Run all cells**
+   - Execute every notebook cell from top to bottom to reproduce the analysis, visualizations, and model results.
+
+---
+
 ## Technologies Used
 
 - Python
